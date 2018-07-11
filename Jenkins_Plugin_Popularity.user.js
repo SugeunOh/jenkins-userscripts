@@ -14,7 +14,7 @@
 // Before you're able to use this, you need to make http://stats.jenkins-ci.org/plugin-installation-trend/latestNumbers.json
 // available on your Jenkins server. The easiest solution is to place the file in the 'userContent' folder and update it manually
 // or through a script.
-
+/*
 (function ($) {
     $.fn.addPopularity = function (pluginInfo) {
         var rows = $(this);
@@ -68,3 +68,4 @@ jQuery(document).ready(function(){
         $(this).attr('colspan', 5);
     });
 });
+*/
