@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name        Jenkins Plugin Popularity
+// @author      https://github.com/daniel-beck
+// @downloadURL https://raw.github.com/daniel-beck/jenkins-userscripts/master/Jenkins_Plugin_Popularity.user.js
+// @description Enhancement of Jenkins Plugin Manager to show the popularity (number of known installations) of plugins
+// @icon        https://2.gravatar.com/avatar/ceb204ad3216b4594ba32364def06deb?r=x&s=32
+// @namespace   com.github.daniel-beck.jenkins-userscripts
+// @include     http://*/pluginManager/*
+// @version     1.0
+// @grant       none
+// @require     http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js
+// ==/UserScript==
 
 // Before you're able to use this, you need to make http://stats.jenkins-ci.org/plugin-installation-trend/latestNumbers.json
 // available on your Jenkins server. The easiest solution is to place the file in the 'userContent' folder and update it manually
